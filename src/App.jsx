@@ -1,11 +1,13 @@
 
 import './App.css'
+import Menu from './pages/menu.jsx'
 
 function App(){
   return(
-    <div>
-
-    </div>
+    <>
+      <Menu/>
+    </>  
+    
   )
 }
 

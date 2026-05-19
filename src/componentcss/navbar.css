@@ -1,0 +1,43 @@
+*{
+    border: solid black 1px;
+}
+
+.nav{
+    width: 20%;
+    height: 99vh;
+    text-align: left;
+}
+
+.nav h3{
+    font-size: clamp(5px, 2vh , 40px);
+    color: #2D6A4F;
+}
+
+.nav ul{
+    text-align: left;
+}
+
+.nav li{
+    list-style: none;
+    margin-left: -10%;
+    font-size: clamp(5px, 2vh, 40px);
+}
+
+.nav button{
+    padding: 5%;
+    width: 80%;
+    text-align: left;
+    font-size: clamp(5px, 2vw, 20px);
+    background-color: transparent;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    font-weight: bold;
+    border: none;
+}
+
+.nav button:hover{
+    background-color: #2D6A4F;
+    color: #B1F0CE;
+    cursor: pointer;
+    transition:  .2s;
+}
